@@ -126,7 +126,8 @@ a.card:hover{transform:translateY(-4px);border-color:var(--taupe)}
 .towns{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-size:14px;color:var(--muted)}
 .info p{margin:6px 0}
 .map{border:0;width:100%;height:300px;filter:grayscale(.4)}
-.suite{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}.suite img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid var(--line)}
+.suite{display:grid;grid-template-columns:.8fr 1fr;grid-template-rows:auto auto;gap:10px;margin-bottom:10px}.suite img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid var(--line)}
+.suite .door{grid-row:span 2;margin:0;position:relative}.suite .door img{height:100%;aspect-ratio:auto;object-position:50% 35%}.suite .door figcaption{position:absolute;left:10px;bottom:10px;background:rgba(20,19,19,.72);color:var(--cream);font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:6px 10px}
 /* school */
 .article{max-width:760px;margin:0 auto}
 .article h2{font-size:38px;margin-top:10px}
