@@ -104,7 +104,7 @@ a.card:hover{transform:translateY(-4px);border-color:var(--taupe)}
 /* treatment page */
 .thero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
 .thero .devs{display:flex;justify-content:center;gap:10px;background:radial-gradient(circle at 50% 55%,#3a3330 0%,var(--ink) 70%);padding:40px 20px;min-height:420px;align-items:center}
-.thero .devs img{max-height:360px;filter:drop-shadow(0 24px 30px rgba(0,0,0,.6))}
+.thero .devs img{max-height:360px;width:auto;height:auto;filter:drop-shadow(0 24px 30px rgba(0,0,0,.6))}
 .areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
 .areas span{border:1px solid var(--line);padding:9px 16px;font-size:14px;background:#fff}
 .price{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:14px 0;font-size:18px}
