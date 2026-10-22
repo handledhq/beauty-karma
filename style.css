@@ -128,6 +128,10 @@ a.card:hover{transform:translateY(-4px);border-color:var(--taupe)}
 .map{border:0;width:100%;height:300px;filter:grayscale(.4)}
 .suite{display:grid;grid-template-columns:.8fr 1fr;grid-template-rows:auto auto;gap:10px;margin-bottom:10px}.suite img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border:1px solid var(--line)}
 .suite .door{grid-row:span 2;margin:0;position:relative}.suite .door img{height:100%;aspect-ratio:auto;object-position:50% 35%}.suite .door figcaption{position:absolute;left:10px;bottom:10px;background:rgba(20,19,19,.72);color:var(--cream);font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:6px 10px}
+/* gift cards */
+.ann{display:block;background:var(--ink);color:var(--cream);text-align:center;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;padding:9px 16px;text-decoration:none}.ann u{color:#c9a982;text-decoration:none}
+.gcard{width:100%;max-width:560px;box-shadow:0 30px 60px rgba(20,19,19,.28);transform:rotate(-2deg)}
+.idea{border:1px solid var(--line);background:var(--cream);padding:28px 26px}.idea .kicker{font-size:11px}.idea h3{margin-top:8px}.idea p{color:var(--muted);font-size:15.5px}
 /* school */
 .article{max-width:760px;margin:0 auto}
 .article h2{font-size:38px;margin-top:10px}
